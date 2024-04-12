@@ -58,7 +58,9 @@
 
     
   }
-
+  .pos{
+   margin-left:5%;
+  }
   .edit-btn{
    cursor: pointer;
    margin: 4px;
