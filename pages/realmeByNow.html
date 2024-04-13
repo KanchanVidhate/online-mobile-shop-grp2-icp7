@@ -1,14 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Detail Card</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/index.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- font-awesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- font -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+
+  <!-- css link-->
+  <link rel="stylesheet" href="./../css/nav.css">
+  <link rel="stylesheet" href="./../css/index.css">
+  
     <style>
         .add-btn{
     color: #ffff;
@@ -19,6 +32,7 @@
     margin-top: 5px;
     margin-left: 50px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .mainImg1{
     width: 450px;
@@ -29,64 +43,48 @@
 
 <body>
     <!-- Navbar -->
-    <section class="ftco-section">
-        <div class="container-fluid px-md-5">
-            <div class="row justify-content-between">
-                <div class="col-md-8 order-md-last">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <img src="../img/smartphone.png" alt="smartphone" width="60">
-                            <a class="navbar-brand" href="index.html">Mobile Mart <span>Mobile Shop</span></a>
-                        </div>
-                        <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3 g-6">
-                            <form action="#" class="searchform order-lg-last">
-                                <div class="form-group d-flex">
-                                    <input type="text" class="form-control pl-3" placeholder="Search">
-                                    <button type="submit" placeholder class="form-control search"><span
-                                            class="fa fa-search"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light " id="ftco-navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../pages/gaming.html" class="nav-link">Gaming</a></li>
+                    <li class="nav-item"><a href="../pages/accessory.html" class="nav-link">Accessory</a></li>
+                    <li class="nav-item"><a href="../pages/offer.html" class="nav-link">Offer</a></li>
+                    <li class="nav-item"><a href="../pages/covers.html" class="nav-link">Cover</a></li>
+                    <li class="nav-item"><a href="../pages/flaggship.html" class="nav-link">Flagship</a></li>
+                    <li class="nav-item"><a href="../pages/contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="../pages/about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="../pages/log-in.html" class="nav-link">Login</a></li>
+                </ul>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                    aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span> Menu
-                </button>
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item active"><a href="./../index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="../pages/gaming.html" class="nav-link">Gaming</a></li>
-                        <li class="nav-item"><a href="../pages/accessory.html" class="nav-link">Accessory</a></li>
-                        <li class="nav-item"><a href="../pages/offer.html" class="nav-link">Offer</a></li>
-                        <li class="nav-item"><a href="../pages/cover.html" class="nav-link">Cover</a></li>
-                        <li class="nav-item"><a href="../pages/flagship.html" class="nav-link">Flagship</a></li>
-                        <li class="nav-item"><a href="../pages/contact.html" class="nav-link">Contact</a></li>
-                        <li class="nav-item"><a href="../pages/about.html" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="../pages/about.html" class="nav-link">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar -->
+    </nav>
+    <!-- Navbar -->
     <section class="Product container my-4 pt-4">
         <div style="display: flex;">
             <div class="mainImg1" >
-                <img src="../img/covers/realme10.png"  id="changeImg" class="mainImg1">
+                <img src="../img/covers/realme10-1.png"  id="changeImg" class="mainImg1">
             </div>
             <div>
                 <span class="product-title">
-                    <p class="display-6 fw-semibold"style="color: black;">Attitude Glass Art Case for Realme 10 Pro Plus(5G)<span>
+                    <p class="display-6 fw-semibold"style="color: black; font-size:33px"><b>Attitude Glass Art Case for Realme 10 Pro Plus(5G)</b><span>
                             
                 </span>
                
                 <div class="price fs-4">
                     <p>  &nbsp;₹159</p>
                 </div>
+                <span>
+                    <p id="show-quantity" class="quantity-total"class="price">1 x 159 </p>
+                    <p id="show-total" class="quantity-total">Total : 159</p>
+                </span>
                 <div  style="display: flex; margin: 5px;">
                     <div>
                         <span>
@@ -131,7 +129,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        <script  src=".\..\js\realmeByNow.js"></script>
+        <script  src="../js/realmeByNow.js"></script>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white" style="background-color: #252525">
