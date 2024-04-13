@@ -11,7 +11,26 @@
 
 
 ### Homepage Page
-![screenshots](.\img\readme-file\Homepage.png)
+
+![alt text](img/readme-file/Homepage.png)
+
 
 ### Gaming Page
-![screenshots](.\img\readme-file\Gaming.png)
+![alt text](img/readme-file/Gaming.png)
+
+
+### Accessory
+![alt text](img/readme-file/Accessory.png)
+
+
+### Contact
+![alt text](img/readme-file/Contact.png)
+
+### About
+![alt text](img/readme-file/About.png)
+
+### sign Up
+![alt text](img/readme-file/Sign-up.png)
+
+### sign In
+![alt text](img/readme-file/Sign-in.png)
