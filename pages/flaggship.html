@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/style.css">
 
-    <title>flaggship page</title>
+    <title> this is thee  flaggship page</title>
     <style>
         .btn-1 {
             color: #ffff;
@@ -46,6 +46,11 @@
             height: 400px;
         }
   
+        .img{
+            margin: 8px;
+            width: 170px;
+        
+        }
   @media screen and (max-width: 700px) {
            .container1{
             width: 500px;
@@ -54,6 +59,11 @@
            .container2{
             width:125px;
             height:200px;
+            display: flex;
+            flex-direction: row;
+           }
+           .img{
+                width:90px;
            }
   }
    @media screen and (max-width: 400px) {
@@ -73,6 +83,9 @@
                 margin-right: 100px;
                 display: flex;
                 flex-direction:column;
+            }
+            .img{
+                width: 80px;
             }
            
   }
@@ -110,9 +123,9 @@
 <div class="container-fluid d-flex justify-content-center container1">
     <img src="../img/flagshippage-img/phne-img.jpg" class="ms-5 pt-3 main-img" id="main-img">
     <div class="img-container d-flex flex-column mt-3 ms-5 container2 ">
-        <img src="../img/flagshippage-img/phne-img3.webp" class="m-3 " style="width: 170px;" onclick="changeimage('../img/flagshippage-img/phne-img3.webp')" />
-     <img src="../img/flagshippage-img/phne-img4.png" class="m-3" style="width: 170px;" onclick="changeimage('../img/flagshippage-img/phne-img4.png')" />
-          <img src="../img/flagshippage-img/phne-img6.png"   class="m-3" style="width: 170px;" onclick="changeimage('../img/flagshippage-img/phne-img6.png')" />
+        <img src="../img/flagshippage-img/phne-img3.webp" class=" img " onclick="changeimage('../img/flagshippage-img/phne-img3.webp')" />
+     <img src="../img/flagshippage-img/phne-img4.png" class=" img " onclick="changeimage('../img/flagshippage-img/phne-img4.png')" />
+          <img src="../img/flagshippage-img/phne-img6.png"   class="img " onclick="changeimage('../img/flagshippage-img/phne-img6.png')" />
     </div>
 </div>
 <!--main-img end-->
