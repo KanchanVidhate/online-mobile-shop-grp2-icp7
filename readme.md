@@ -25,3 +25,6 @@
 
 ### Contact
 ![alt text](img/readme-file/Contact.png)
+
+### About
+![alt text](img/readme-file/About.png)
