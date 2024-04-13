@@ -38,7 +38,7 @@
   color:green;
 }
 .icon-style{
-  font-size: 50px;
+  font-size: 30px;
 }
 #location:hover{
   color:crimson;
@@ -75,28 +75,30 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
   display:flex;
   height: auto;
-  width:100%;
-  padding: 30px 200px;
+  width:70%;
+  margin:10px auto;
+  padding: 30px 20px;
   justify-content: center;
   text-align: center;
   margin-bottom:30px;
+
   }
   .location-part{
     
     padding:10px;
     width:400px;
-    margin:30px;
+    margin:20px;
   }
   .email-part{
     padding:10px;
     width:400px;
-    margin:30px;
+    margin:20px;
   }
   .call-part{
   
     padding:10px;
     width:400px;
-    margin:30px;
+    margin:20px;
   }
 
 
@@ -184,6 +186,17 @@
  color: black;
  margin-left: 10px;
     }
+    .btn-submit {
+      font-size: 20px;
+      padding: 10px 10px;
+      border: none;
+      border-radius: 20px;
+      width: 100%; /* Make the button responsive */
+      max-width: 150px; /* Limit maximum width for larger screens */
+      background-color: #252525;
+      color: white;
+    }
+    
     @media screen and (max-width: 700px) {
       .image-part{
         margin-top: 100px;
