@@ -13,3 +13,16 @@
 ### Homepage Page
 
 ![alt text](img/readme-file/Homepage.png)
+
+
+### Gaming Page
+![alt text](img/readme-file/Gaming.png)
+
+
+### Accessory
+![alt text](img/readme-file/Accessory.png)
+
+
+### Contact
+
+![alt text](img/readme-file/Contact.png)
