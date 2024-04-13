@@ -14,4 +14,3 @@
 ![screenshots](.\img\readme-file\Homepage.png)
 
 ### Gaming Page
-![screenshots](.\img\readme-file\Gaming.png)

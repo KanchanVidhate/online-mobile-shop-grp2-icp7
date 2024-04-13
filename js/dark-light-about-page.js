@@ -7,18 +7,18 @@ let isReversed = localStorage.getItem('theme') === 'dark';
 function updateTheme() {
   if (isReversed) {
     // Reversed state: black background, white text
-    document.body.style.backgroundColor = 'black';
-    document.body.style.color = 'white';
+   // document.body.style.backgroundColor = 'black';
+    //document.body.style.color = 'white';
 
-  const head = document.getElementById('dark-light-main-header');
-  if (head) 
-  {
-    head.style.backgroundColor = 'black';
-    head.style.color ='white';
-  }
+  //const head = document.getElementById('dark-light-main-header');
+  //if (head) 
+  //{
+  //  head.style.backgroundColor = 'black';
+   // head.style.color ='white';
+ // }
   
-  else
-  head.style.color ='black';
+  //else
+  //head.style.color ='black';
 
 }
 }
