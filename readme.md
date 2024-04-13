@@ -30,7 +30,7 @@
 ![alt text](img/readme-file/About.png)
 
 ### sign Up
-![alt text](img/readme-file/sign-up.png)
+![alt text](img/readme-file/Sign-up.png)
 
 ### sign In
-![alt text](img/readme-file/sign-In.png)
+![alt text](img/readme-file/Sign-in.png)
