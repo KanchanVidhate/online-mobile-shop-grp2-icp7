@@ -11,6 +11,5 @@
 
 
 ### Homepage Page
-![screenshots](.\img\readme-file\Homepage.png)
 
-### Gaming Page
+![alt text](img/readme-file/Homepage.png)
