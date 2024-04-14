@@ -36,3 +36,12 @@
 ![alt text](img/readme-file/Sign-in.png)
 
 ### contributors
+
+
+### Need
+1) Mobile shopping allows you to enter new markets that you couldn't before. 
+2) One of the most significant impacts of mobile e-commerce on online shopping behaviors is the convenience it provides
+3) Consumers can now shop from anywhere, anytime, without the need for a desktop computer or a physical store.
+4) This has led to an increase in impulse purchases and spontaneous buying decisions.
+
+
